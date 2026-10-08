@@ -1,0 +1,15 @@
+:root { --bg: #141618; --card: #1f2a36; --ink: #f4f2ee; --soft: #9aa3ab; --gold: #ffd54f; --accent: #ff5d3b; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 "Nunito", system-ui, -apple-system, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 18px 64px; }
+h1, h2, .logo { font-family: "Lilita One", "Nunito", sans-serif; font-weight: 400; letter-spacing: .5px; }
+h1 { font-size: 40px; margin: 8px 0 4px; color: var(--gold); }
+h2 { font-size: 24px; margin-top: 36px; }
+a { color: var(--gold); }
+.card { background: var(--card); border-radius: 18px; padding: 18px 20px; margin: 18px 0; border: 1px solid rgba(255,255,255,.08); }
+.soft { color: var(--soft); }
+nav { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 18px; }
+nav a { text-decoration: none; font-weight: 800; }
+footer { margin-top: 48px; color: var(--soft); font-size: 14px; }
+table { border-collapse: collapse; width: 100%; }
+td, th { text-align: left; padding: 8px; border-bottom: 1px solid rgba(255,255,255,.08); vertical-align: top; }
