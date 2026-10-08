@@ -5,11 +5,11 @@ Drop them on the roads so every zombie's route leads it into a pit before it rea
 SEE EVERY ROUTE
 Each zombie's path is drawn on the board and redraws the instant you place a barricade, so you always know where the horde will walk.
 
-60 LEVELS, SIX CHAPTERS
-Six chapters across DEADGRID landmarks, from the Garden to Stonehenge. Every level is proven solvable and has a known par.
+144 LEVELS, TWELVE CHAPTERS
+Twelve chapters across DEADGRID landmarks, from the Garden to Stonehenge, rated Easy to Nightmare. Every level is proven solvable and has a known par. Doing well? Perfect clears let you skip ahead.
 
 NEW TWISTS AS YOU GO
-Deep pits that swallow two, tanks that smash straight through your barricades, runners that race them, and pressure plates that swing gates open.
+Deep pits that swallow two, tanks that smash straight through your barricades, runners that race them, pressure plates that swing gates open, one-way roads, sewer tunnels and cracked road that caves in.
 
 BEAT PAR
 Win with the fewest barricades for three stars. Every chapter ends with a boss board.
@@ -21,7 +21,7 @@ STEP AND REPLAY
 Step through any run move by move, and replay a lost one to see exactly where it went wrong.
 
 FAIR HINTS
-Stuck? A hint shows you where to start, never the whole answer, and never behind a paywall.
+Stuck? See for free which zombie slips through and where, then get one barricade at a time. Never behind a paywall.
 
 PLAYS OFFLINE
 No account needed. Add friends, back up your progress and protect it with a password whenever you like.
