@@ -1,5 +1,11 @@
 # DETOUR — App Store listing (English source)
 
+The upload-ready text for every English storefront is in `metadata/` (fastlane
+`deliver` layout): `en-US` (United States), `en-GB` (United Kingdom), `en-AU`
+(Australia) and `en-CA` (Canada), each with its own subtitle, keywords and
+promotional text and local spelling. `python3 store/check_metadata.py` checks the
+App Store limits. This page is the overview.
+
 **Name:** DETOUR: Zombie Route Puzzle
 **Subtitle:** Block roads. Trap the horde.
 **Category:** Games › Puzzle (secondary: Strategy) · **Age rating:** 12+ (infrequent cartoon violence)
@@ -7,27 +13,19 @@
 **Support URL:** https://afonsoquinaz.github.io/puzzle-public/support.html
 **Privacy URL:** https://afonsoquinaz.github.io/puzzle-public/privacy.html
 
-## Promotional text
-A new zombie puzzle every day. Place a few barricades, press GO, and watch the horde walk straight into your traps.
+## Promotional text and description
+See `metadata/<locale>/promotional_text.txt` and `description.txt` (the files are the
+source of truth; en-GB and en-AU use British spelling).
 
-## Description
-Zombies are shuffling toward the survivors' house. You get a few barricades.
+## Subtitles and keywords by storefront
+Words in the name and subtitle are already indexed, so keywords never repeat them.
 
-Place them on the roads so every zombie's route leads it into a pit before it reaches the house. Plan first, press GO, and watch your plan play out. Pure logic — no reflexes, no timers, no luck.
-
-• SEE EVERY ROUTE — each zombie's path is drawn and updates the instant you drop a barricade
-• 60 LEVELS across six DEADGRID landmarks, from the Garden to Stonehenge, each proven solvable with a known par
-• NEW TWISTS — tanks that smash barricades, runners that race them, pressure plates that swing gates open
-• BEAT PAR — win with the fewest barricades for three stars
-• DAILY PUZZLE — a fresh brain-teaser every day, streaks, and a spoiler-free share for your friends
-• STEP & REPLAY — step through any run move by move and replay a failed one to see exactly what went wrong
-• HINTS when you're stuck, never a paywall
-• Plays offline. Friends, cloud save and accounts when you want them.
-
-From the makers of DEADGRID and GRIDLOCK.
-
-## Keywords (100 chars)
-zombie,puzzle,logic,brain,route,maze,barricade,daily,strategy,path,trap,horde,deadgrid,gridlock
+| Locale | Subtitle | Keywords |
+|---|---|---|
+| en-US | Block roads. Trap the horde. | logic,brain,teaser,maze,barricade,daily,strategy,path,undead,survival,mind,iq,pit,tactics,think |
+| en-GB | Close roads. Trap the horde. | logic,brainteaser,maze,barricade,daily,strategy,path,undead,survival,mind,clever,puzzler,tactics,pit |
+| en-AU | Road closed! Trap the horde. | logic,brainteaser,maze,barricade,daily,strategy,path,undead,survival,mind,clever,puzzler,tactics,pit |
+| en-CA | Barricade roads. Trap zombies | logic,brain,teaser,maze,daily,strategy,path,undead,survival,horde,mind,iq,pit,tactics,think,block |
 
 ## What's new (1.0)
 The horde arrives. 60 levels, a daily puzzle and friends.
